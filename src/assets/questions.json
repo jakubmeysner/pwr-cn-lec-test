@@ -2,7 +2,7 @@
     {
         "id": 1,
         "question": "W celu umożliwienia routingu pomiędzy sieciami VLAN administrator dodał ruter, którego interfejs został skonfigurowany do współpracy z łączeniem trunk. Czemu odpowiada parametr ukryty pod znakiem zapytania na poniższym rysunku?",
-        "image": "/assets/1-28e4b1e9-44ec-4b17-b37c-b6ae6ac8d9de.jpg",
+        "image": "/assets/1.28e4b1e9-44ec-4b17-b37c-b6ae6ac8d9de.jpg",
         "answers": [
             {
                 "id": 1,
@@ -34,7 +34,7 @@
     {
         "id": 2,
         "question": "Host A wysyła pakiet do hosta B. Jaki będzie adres MAC oraz adres IP zawarty w pakiecie w momencie, gdy dotrze on do celu?",
-        "image": "/assets/2-2009ef6c-a884-4cab-baa7-ca4c0cfd7447.jpg",
+        "image": "/assets/2.2009ef6c-a884-4cab-baa7-ca4c0cfd7447.jpg",
         "answers": [
             {
                 "id": 1,
@@ -242,7 +242,7 @@
     {
         "id": 9,
         "question": "Nawiązując do rysunku : Biorąc pod uwagę adresy juz przypisane i wykorzystane w adresacji z puli 10.16.10.0/24 , jaki adres podsieci mógłby zostac przypisany do sieci zawierającej 25 hostów?",
-        "image": "/assets/9-62e326a3-056d-4687-be20-7cf512cbabff.jpg",
+        "image": "/assets/9.62e326a3-056d-4687-be20-7cf512cbabff.jpg",
         "answers": [
             {
                 "id": 1,
@@ -362,7 +362,7 @@
     {
         "id": 13,
         "question": "Nawiązując do rysunku. Firma korzysta z bloku adresu 128.107.0.0/16 dla swojej sieci. Jaka maska podsieci zapewni maskymalną liczbę podsieci o jednakowej wielkości, zapewniając jednocześnie wystarczające adresy hostów dla każdej podsieci zaznaczonej na rysunku.",
-        "image": "/assets/13-d1340205-19e9-4101-ac62-1363ba851eab.jpg",
+        "image": "/assets/13.d1340205-19e9-4101-ac62-1363ba851eab.jpg",
         "answers": [
             {
                 "id": 1,
@@ -534,7 +534,7 @@
     {
         "id": 19,
         "question": "Refer to exhibit. A user issues the command netstat -r on workstation. Which IPv6 address is on of link local addresses of workstation? Wybierz jedną odpowiedź:",
-        "image": "/assets/19-5b37bce0-1f69-43f7-be18-3ef43c3be961.jpg",
+        "image": "/assets/19.5b37bce0-1f69-43f7-be18-3ef43c3be961.jpg",
         "answers": [
             {
                 "id": 1,
@@ -763,7 +763,7 @@
     {
         "id": 27,
         "question": "Rysunek przedstawia częściowy wydruk konfiguracji przełącznika. Jakiego hasła należy użyć w trakcie logowania się przez telnet aby wejść w tryb użytkownika (user exec mode)?",
-        "image": "/assets/27-e5d13549-1b3e-4725-acbd-f1ed0e2495ce.jpg",
+        "image": "/assets/27.e5d13549-1b3e-4725-acbd-f1ed0e2495ce.jpg",
         "answers": [
             {
                 "id": 1,
@@ -940,7 +940,7 @@
     {
         "id": 33,
         "question": "Nawiązując do rysunku: Jaka jest wartość dystansu administracyjnego w tablicy routingu R2 do sieci 10.10.0.0/16?",
-        "image": "/assets/33-efc58ac1-fa7a-4b10-9e0c-1c9126c4db93.jpg",
+        "image": "/assets/33.efc58ac1-fa7a-4b10-9e0c-1c9126c4db93.jpg",
         "answers": [
             {
                 "id": 1,
@@ -2016,7 +2016,7 @@
     {
         "id": 68,
         "question": "Nawiązując do rysunku. Biorąc pod uwagę adres sieciowy 192.168.5.0 i maskę podsieci 255.255.255.224 taką samą dla wszystkich podsieci. Jaka jest całkowita liczba nieużywanych (marnowanych) adresów IP w powyższej topologii? Wybierz jedną odpowiedź",
-        "image": "/assets/68-276d1f2f-9e42-4e04-bb75-fccd79aaefe3.jpg",
+        "image": "/assets/68.276d1f2f-9e42-4e04-bb75-fccd79aaefe3.jpg",
         "answers": [
             {
                 "id": 1,
@@ -2172,7 +2172,7 @@
     {
         "id": 73,
         "question": "Nawiązując do rysunku. Firma korzysta z bloku adresu 128.107.0.0/16 dla swojej sieci. Jaka maska podsieci zapewni maksymalną liczbę podsieci o jednakowej wielkości, zapewniając jednocześnie wystarczające adresy hostów dla każdej podsieci zaznaczonej na rysunku. Wybierz jedną odpowiedż.",
-        "image": "/assets/73-b9338025-a2c7-4046-946e-74d608670f73.jpg",
+        "image": "/assets/73.b9338025-a2c7-4046-946e-74d608670f73.jpg",
         "answers": [
             {
                 "id": 1,
@@ -10368,7 +10368,7 @@
     {
         "id": 368,
         "question": "Nawiązując do rysunku: administrator musi wysłać wiadomość do wszystkich użytkowników sieci A. Jaki jest adres broadcast dla sieci 172.16.16.0/22",
-        "image": "/assets/368-ac5deca1-abe5-4eeb-8848-f0e3f5fff7c0.jpg",
+        "image": "/assets/368.ac5deca1-abe5-4eeb-8848-f0e3f5fff7c0.jpg",
         "answers": [
             {
                 "id": 1,
@@ -10400,7 +10400,7 @@
     {
         "id": 369,
         "question": "W trakcie konfiguracji przełącznika administrator otrzymał komunikat o błędzie. Co jest przyczyną tego błędu?",
-        "image": "/assets/369-64091116-ab92-40f9-9011-d3dc51ca8e77.jpg",
+        "image": "/assets/369.64091116-ab92-40f9-9011-d3dc51ca8e77.jpg",
         "answers": [
             {
                 "id": 1,
