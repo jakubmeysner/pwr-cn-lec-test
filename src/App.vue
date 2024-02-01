@@ -13,12 +13,26 @@ const store = useStore()
         <app-bar />
 
         <v-main>
-            <v-container style="max-width: 1000px">
-                <home v-if="store.questionId === null" />
-                <question v-else />
+            <v-container fluid>
+                <v-row>
+                    <v-col cols="12" md="6">
+                        <home v-if="store.questionId === null" />
+                        <question v-else />
+                        <stats class="mt-4" />
+                    </v-col>
+                    <v-col cols="12" md="6">
+                        <!-- Place your iframe here -->
+                        <iframe width="512" height="288" 
+                            src="https://www.youtube.com/embed/7ghSziUQnhs?autoplay=1&mute=1" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
 
-                <stats class="mt-4" />
+                    </v-col>
+                </v-row>
             </v-container>
         </v-main>
     </v-app>
 </template>
+
