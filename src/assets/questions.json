@@ -738,7 +738,6 @@
     {
         "id": 26,
         "question": "Wybierz prawdziwe stwierdzenia dotyczące trasy do sieci NET1, która do tablicy routera R1 została dopisana w sposób dynamiczny.",
-        "selectAll": true,
         "answers": [
             {
                 "id": 1,
