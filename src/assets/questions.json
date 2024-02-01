@@ -679,6 +679,7 @@
     {
         "id": 24,
         "question": "Które dwie warstwy modelu ISO-OSI zawierają się w najniższej warstwie stosu protokołów TCP/IP?",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -1067,6 +1068,7 @@
     {
         "id": 37,
         "question": "Które dwa określenia poprawnie opisują typy pamięci routera i jej zawartości?",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -1161,6 +1163,7 @@
     {
         "id": 40,
         "question": "Które adresy IP zostaną przepuszczone przez podaną poniżej access listę? access-list 10 permit 192.168.16.0 0.0.7.255",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -1213,6 +1216,7 @@
     {
         "id": 42,
         "question": "Zaznacz dwa parametry, które można określić przy użyciu polecenia ping?",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -1249,6 +1253,7 @@
     {
         "id": 43,
         "question": "What three blocks of addresses are defined by RFC 1918 for private network use?",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
