@@ -19,6 +19,10 @@ const answered = ref<boolean>(false)
 const answeredCorrectly = ref<boolean>(false)
 
 function toggleAnswer(id: number) {
+    if (answered.value) {
+        return
+    }
+
     if (answerIds.value.includes(id)) {
         const index = answerIds.value.indexOf(id)
         answerIds.value.splice(index, 1)
