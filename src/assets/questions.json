@@ -1,0 +1,1944 @@
+[
+    {
+        "id": 1,
+        "question": "Czy $sp w MIPS to:",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "stop pointer - wskaźnik zatrzymania programu",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "super position - tryb pracy procesora, pozwalający na zwiększenie jego szybkości",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "stack pointer - rejestr ze wskaźnikiem początku stosu",
+                "correct": true
+            },
+            {
+                "id": 4,
+                "answer": "stop position - warunek stopu aplikacji",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "Ile argumentów ma komenda sub?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "cztery (trzy rejestry wejściowe do odejmowania, jeden rejestr docelowy do wyniku)",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "co najmniej dwa (co najmniej jeden wejściowy, jeden rejestr docelowy do wyniku)",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "trzy (dwa rejestry wejściowe do odejmowania, jeden rejestr docelowy do wyniku)",
+                "correct": true
+            },
+            {
+                "id": 4,
+                "answer": "pięć (cztery rejestry wejściowe do odejmowania, jeden rejestr docelowy do wyniku)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "Do jakiej klasy wedle taksonomii Flynna można zaliczyć GPU?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "MISD",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "SISD",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "SIMD",
+                "correct": true
+            },
+            {
+                "id": 4,
+                "answer": "MIMD",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "Architektura RISC w porównaniu z architekturą CISC (np. MIPS vs Intel x86-64):",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "jest częściej wykorzystywana w urządzeniach mobilnych (telefony, tablety itp.)",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": "jest starą i już niewykorzystywaną architekturą",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "ma więcej bardziej złożonych instrukcji zmiennej długości",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "jest mniej bezpieczna przez to jak stworzono ISA",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "question": "Instrukcja w architekturze MIPS:",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "może mieć zmienną długość",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "ma zawsze 32 bity długości",
+                "correct": true
+            },
+            {
+                "id": 3,
+                "answer": "zawsze ma odpowiednik o tej samej nazwie w architekturze CISC",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "jest zabezpieczona przed nieuprawnionym wykonaniem przez GU",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "question": "Do czego służy instrukcja lw?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "ładuje słowo z pamięci do rejestru",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": "przenosi słowo pomiędzy komórkami pamięci",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "przenosi słowo pomiędzy rejestrami",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "zapisuje słowo z rejestru do pamięci",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "question": "Czym jest pipelining / potokowanie?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "przesyłanie danych pomiędzy rejestrami w celu optymalizacji wydajności",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "specjalne wejście procesora dla potoku danych",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "zabezpieczenie przed nadpisaniem wrażliwych obszarów pamięci systemu operacyjnego",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "wykonywanie kilku instrukcji jednocześnie przez procesor",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "question": "Instrukcja w architekturze MIPS:",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "nie zawsze jest zaimplementowana sprzętowo",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": "nigdy nie pokrywa się z ISA CISC",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "jest zmiennej długości od 16 do 64 bitów",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "MIPS nie ma instrukcji",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "question": "Długość słowa w architekturze MIPS to:",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "32 bity",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": "64 bity",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "16 bitów",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "8 bitów",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "question": "Jaka jest pozytywna cecha architektury Harvard?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "możliwość autodiagnozy uszkodzeń i włączania obwodów zapasowych",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "dane duplikowane są w wielu obszarach pamięci, przez co można szybciej je znaleźć",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "istnieje wiele szyn danych od procesora do pamięci",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "dane i instrukcje zajmują rozłaczne obszary systemu komputerowego - zmniejszone ryzyko wykonania nieuprawnionej intrukcji",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "question": "W jednej lini asemblera MIPS można:",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "napisać więcej niż jedną instrukcję",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "podać wprost kod maszynowy instrukcji (ciąg zer i jedynek)",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "zadeklarować dane, a później umieścić komentarz",
+                "correct": true
+            },
+            {
+                "id": 4,
+                "answer": "napisać najpierw komentarz, później instrukcję",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "question": "Czym są rejestry ogólnego preznaczenia (GPR - general purpose registers)?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "rejestrem dostępnych wejść i wyjść ogólnego przeznaczenia (I/O)",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "rejestrem operacji dostępnych w danej architekturze",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "wykazem dostępnych źródeł pamięci RAM",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "nabliższym procesora miejscem przechowywania danych",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "question": "Czy możliwe jest zaimplementowanie pętli w asemblerze MIPS?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "tak, kombinacją kilku instrukcji",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": "tak, instrukcją for",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "nie ma takiej możliwości, konieczny jest język wysokiego poziomu",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "tak, instrukcją while",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "question": "Jaka klauzula w asemblerze MIPS rozpoczyna deklarację danych?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": ".data",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": ".var",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": ".declare",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": ".text",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "question": "Jaka klauzula w asemblerze MIPS rozpoczyna kod programu (instrukcji)?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": ".data",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": ".var",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": ".declare",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": ".text",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "question": "Czy dana instrukcja MIPS ma poprawną składnię: lw 4($t1)?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "nie, ponieważ w MIPS nie ma instrukcji lw",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "tak",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "nie, ponieważ 4 powinno być podzielne bez reszty przez 8 (długość słowa w MIPS wyrażana jest w bajtach)",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "nie, ponieważ instrukcji lw jest potrzebny jeszcze jeden argument",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "question": "Czy dana instrukcja MIPS ma poprawną składnię: lw $t0, 4($t1)?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "nie, ponieważ w MIPS nie ma instrukcji lw",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "tak",
+                "correct": true
+            },
+            {
+                "id": 3,
+                "answer": "nie, ponieważ 4 powinno być podzielne bez reszty przez 8 (długość słowa w MIPS wyrażana jest w bajtach)",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "nie, ponieważ instrukcji lw jest potrzebny jeszcze jeden argument",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "question": "Które dane zostaną utracone po ponownym uruchomieniu komputera?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "na dysku twardym",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "na dysku SSD",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "w napędzie taśmowym",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "w rejestrach",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "question": "Czym jest rejestr $pc w MIPS?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "jest to rejestr wskazujący gdzie w pamięci procesor będzie szukał następnej instrukcji",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": "jest to rejestr wskazujący na wersję (commit) programu uruchamianego na CPU",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "jest to pośredni rejestr wykorzystywany przy przekazywaniu wartości do rejestru",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "jest to rejestr pozostawiony ze względów kompatybilnościowych, obecnie nieużywany",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "question": "Co znajduje się na szczycie hierarchii pamięci?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "cache procesora",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "napęd taśmowy",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "rejestry procesora",
+                "correct": true
+            },
+            {
+                "id": 4,
+                "answer": "pamięć RAM",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "question": "Jaka wartość znajdzie się w rejestrze $0 po wykonaniu add $0, $1, $2",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "zero",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": "nie wiadomo, bo nie znamy wartości w rejestrach $1 i $2",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "instrukcja ma nieprawidłową składnię, powinna mieć cztery argumenty",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "wartość w rejestrze $0 nie zmieni się, zmieni się wartość w $2 (będzie sumą $0 i $1)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "question": "Która z poniższych architektur zakłada wspólną pamięć dla instrukcji i danych?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "architektura Łukasiewicza",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "architektura Stanford",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "architektura Princeton (von Neumann)",
+                "correct": true
+            },
+            {
+                "id": 4,
+                "answer": "architektura Harvard",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "question": "Czego NIE definiuje ISA (Instruction Set Architecture)?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "zbioru dostępnych rejestrów",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "organizacji pamięci",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "wyboru instrukcji",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "modeli dostępnych procesorów",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "question": "Instrukcje I-type w MIPS:",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "zajmują się obsługą przerwań I/O (interrupts)",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "obsługują szybkie indeksowanie (indexing)",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "nie występują, są tylko w CISC",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "pracują na wartościach (immediate)",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "question": "Jaki jest rozmiar branch delay slot w MIPS?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "jedna instrukcja",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": "dwie instrukcje",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "trzy instrukcje lub więcej",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "MIPS nie ma branch delay slot",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "question": "Asembler MIPS pozwala na:",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "ładowanie słów z pamięci do rejestrów",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": "umieszczenie w jednej instrukcji addi więcej niż jednej wartości immediate",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "zmianę kolejności podawania rejestrów źródłowych i docelowych w instrukcji",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "ładowanie wielokrotności słów do rejestrów GPR",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "question": "Który z tych układów najszybciej będzie wykonywał jedno konkretne zadanie?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "CPU w architekturze RISC",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "CPU w architekturze CISC",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "FPGA",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "ASIC",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "question": "Długość słowa (word):",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "jest pojęciem obecnie niewykorzystywanym",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "jest zawsze stała we wszystkich architekturach",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "może się różnić w zależności od architektury (ISA)",
+                "correct": true
+            },
+            {
+                "id": 4,
+                "answer": "definiuje się ją na początku programu w asemblerze",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "question": "Co cechuje rejestry ogólnego przeznaczenia (GPR)?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "nie można się do nich dostać z poziomu języka asembler",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "znajdują się w różnych miejsach systemu komputerowego",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "są małych rozmiarów i jest ich mało",
+                "correct": true
+            },
+            {
+                "id": 4,
+                "answer": "z racji rozmiaru są bardzo wolne",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "question": "Która rodzina instrukcji NIE istnieje w MIPS?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "J-type (jump)",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "R-type (register)",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "S-type (secure)",
+                "correct": true
+            },
+            {
+                "id": 4,
+                "answer": "I-type (immediate)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "question": "Jaka jest rola rejestru $ra w MIPS?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "zawiera wskazanie do bloku pamięci liczb rzeczywistych (real adress)",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "nie ma go w MIPS, jest tylko w architekturach CISC",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "zawiera informację na temat adresu powrotu po wykonaniu instrukcji jal (return adress)",
+                "correct": true
+            },
+            {
+                "id": 4,
+                "answer": "zawiera liczbę losową do wykorzystania w kodzie (random adress)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "question": "Czym jest \"endianness\"?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "ustawieniem kolejności bajtów w słowie",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": "wybieranym typem zakończenia programu",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "rodzajem architektury ISA (typu low-end lub high-end)",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "ustawieniem kolejności bitów w bajcie",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "question": "W $1 znajduje się liczba 7, a w $2 liczba 42. Po wykonaniu instrukcji add $0, $1, $2 w $0 znajduje się:",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "0",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": "3",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "49",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "$0 się nie zmieni, w $2 znajdzie się 7",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "question": "Która taksonomia nie istnieje?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "Flynna",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "Fenga",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "Handlera",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "Stanforda",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "question": "Czemu stosuje się hierarchię pamięci?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "nie stosuje się",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "bo kiedyś się stosowało i tak zostało",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "bo jest krótsza droga",
+                "correct": true
+            },
+            {
+                "id": 4,
+                "answer": "dla bezpieczeństwa",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "question": "Co charakteryzuje instrukcje R-type?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "działają na pamięci",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "działają na wartościach bezpośrednich",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "działaja na rejestrze $pc",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "działają na rejestrach",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "question": "Co charakteryzuje instrukcje I-type?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "działają na pamięci",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "działają na wartościach bezpośrednich",
+                "correct": true
+            },
+            {
+                "id": 3,
+                "answer": "działaja na rejestrze $pc",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "działają na rejestrach",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "question": "Co charakteryzuje instrukcje J-type?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "działają na pamięci",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "działają na wartościach bezpośrednich",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "działaja na rejestrze $pc",
+                "correct": true
+            },
+            {
+                "id": 4,
+                "answer": "działają na rejestrach",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "question": "Jeśli wykonamy instrukcję JAL, to gdzie zapisze się adres następnej instrukcji?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "w $ra",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": "w $pc",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "nie ma takiej instrukcji",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "zapisuje się tylko przy użyciu instrukcji J",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "question": "Czym jest branch delay slot w MIPS?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "celowym wykonaniem kolejnej instrukcji po skoku aby minimalnie zaburzyć proces potokowania (pipelining)",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": "wielkością opóźnienia wynikającą z typu wykonywanej instrukcji",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "koniecznym do obliczenia rozmiarem gałęzi w przypadku rozwidlenia programu (np. wskutek sprawdzania warunku)",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "skokiem do adresu zawartego w $ra w celu poprawnego wyjścia z funkcji do miejsca gdzie była wywołana",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "question": "Gdzie trzymany jest stos w MIPS?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "w pamięci",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": "w rejestrach",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "w osobnym akumulatorze",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "w MIPS nie ma stosu",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "question": "Kod napisany w assemblerze:",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "nie może być osadzany w języku C",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "wykonywany jest bezpośrednio w procesorze bez dodatkowej translacji do kodu maszynowego",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "na ogół działa szybciej niż napisany w języku wysokiego poziomu",
+                "correct": true
+            },
+            {
+                "id": 4,
+                "answer": "pozwala na osadzenie w nim kodu języka C",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "question": "Co oznacza zapis \"comment:\" w MIPS-ie?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "zapis jest niepoprawny",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "komentarz w kodzie",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "tworzy label o nazwie \"comment\", wskazujący na miejsce w pamięci po dwukropku",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "question": "W jaki sposób można zmienić ASIC do realizowania zupełnie innej operacji?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "używając języka VHDL",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "nie jest to możliwe",
+                "correct": true
+            },
+            {
+                "id": 3,
+                "answer": "zmieniając kod asemblera i ponownie go uruchamiając w ASIC",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "zmieniając wejścia i wyjścia ASIC",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "question": "Jaki układ zajmuje się kontrolą operacji ALU?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "CU — Control Unit",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": "GPU — Graphics Processing Unit",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "CPU — Central Processing unit",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "ALU jest niezależne i nie potrzebuje kontroli",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "question": "W jaki sposób można przenieść dane pomiedzy dwoma głównymi obszarami pamięci w architekturze Harvarda?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "należy użyć szyny danych łączącej dwa obszary pamięci",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "architektura robi to samodzielnie w celu zachowania redundancji",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "wystarczy użyć odpowiednika instrukcji move dla danej architektury",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "nie jest to możliwe",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "question": "W jaki sposób przechowywane są liczby rzeczywiste wedle standardu IEEE 754 na 32 bitach?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "1 bit na znak, 15 bitów na część całkowitą, 16 na część dziesiętną",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "1 bit na znak, 5 bitów na lokalizację separatora (kropki), 26 na zakodowanie liczby",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "1 bit na znak, 8 bitów na wykładnik, 23 na mantysę",
+                "correct": true
+            },
+            {
+                "id": 4,
+                "answer": "ten standard nie pozwala na kodowanie liczb rzeczywistych, tylko całkowitych",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "question": "Jaka jest rola rejestru $f0 w MIPS?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "przechowuje zero, nie da się zmienić jego wartości",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "przechowuje pierwsze 32 bity liczby rzeczywistej double precision lub całą liczbę rzeczywistą single precision",
+                "correct": true
+            },
+            {
+                "id": 3,
+                "answer": "jest flagą ustawiona w przypadku dzielenia przez zero (wskazuje na błąd dzielenia)",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "taki rejestr w MIPS nie istnieje, w MIPS wystepuje tylko rejestr $0",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "question": "Na co pozwala architektura MISD w taksonomii Flynna?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "wykrywanie błędow, gdyż te same instrukcje mogą być wykonywane na tych samych danych równolegle",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": "na obliczanie zrównoleglone w klastrze",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "MISD jako najprostsza architektura wykonuje jedną instrukcję jednoczesnie na tych samych danych",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "MISD nie istnieje w taksonomii Flynna",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "question": "Czy można uruchomić program napisany w języku wysokiego poziomu (np. C++) stworzony dla architektury CISC na architekturze RISC?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "tak, ale tylko dla wybranych typów procesora CISC i RISC",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "nie",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "tak, ale wymaga to ponownej kompilacji i odpowiedniej wersji asemblera",
+                "correct": true
+            },
+            {
+                "id": 4,
+                "answer": "tak",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "question": "Czym jest architektura bi-endian?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "sposobem ustawienia bajtów w słowie, w tym przypadku od najbardziej znaczących do najmniej znaczących",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "ta architektura pozwala pracować zarówno w little-endian jak i big-endian",
+                "correct": true
+            },
+            {
+                "id": 3,
+                "answer": "sposobem ustawienia bajtów w słowie, w tym przypadku od najmniej znaczących do najbardziej znaczących",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "korekcją błędów poprzez duplikowanie bitów na początku i na końcu ciągu danych",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "question": "Co oznacza instrukcja pop dla MIPS?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "ściąga jedno slowo ze stosu",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "MIPS nie wspiera instrukcji pop",
+                "correct": true
+            },
+            {
+                "id": 3,
+                "answer": "odkłada jedno slowo na stos",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "oznacza pusty cykl procesora",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "question": "Jakiego etapu NIE zawiera potokowanie RISC (pipelining)?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "instruction fetch IF",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "instruction cache IC",
+                "correct": true
+            },
+            {
+                "id": 3,
+                "answer": "memory access MEM",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "execute EX",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "question": "Dlaczego w instrukcjach R-Type wystarczy zakodować rejestr na pięciu bitach?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "ponieważ używamy adresowania względnego",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "ponieważ używamy kodowania IEEE 754",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "ponieważ wystarczą tylko 32 adresy",
+                "correct": true
+            },
+            {
+                "id": 4,
+                "answer": "rejestr w intrukcjach R-type adresujemy na 32 a nie na pięciu bitach",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "question": "Czym jest numeryczny kod maszynowy (numerical machine code)?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "kodem typu instrukcji (opcode)",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "zestawem instrukcji asemblera wspieranych przez dany procesor",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "skompilowanym kodem asemblera bezpośrednio podawanym do procesora",
+                "correct": true
+            },
+            {
+                "id": 4,
+                "answer": "unikatowym kodem danej architektury procesora (ISA)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "question": "Czym jest akumulator?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "specjalizowanym rejestrem procesora, w którym umieszczane są wyniki operacji jednostki arytmetyczno-logicznej procesora",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": "inną nazwą stosu",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "licznikiem służącym do zliczania liczby iteracji pętli",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "buforem danych w pamięci RAM o szybkim dostępie (na początku adresacji)",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "question": "Co umożliwia sprawne poruszanie sie po stosie MIPS, szczegolnie przy rekurencji?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "frame pointer ($fp)",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": "stack bottom",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "stack limit",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "instrukcje $pop i $push",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "question": "Co cechuje architekturę CISC?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "zmienna długość instrukcji",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": "stała długość instrukcji",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "kazda instrukcja wykonuje się dokładnie jeden cykl zegara",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "load and store",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "question": "Ile wartości można jednocześnie przekazać do rejestru z użyciem instrukcji addi w MIPS?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "jedną",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": "dwie",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "trzy",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "górne ograniczenie to 32 wartosci",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "question": "Jaka jest rola rejestru $sp?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "wskazuje na stack bottom",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "wskazuje na początek stosu, poniżej niego (na wyższych adresach pamięci) znajdują się dane stosu",
+                "correct": true
+            },
+            {
+                "id": 3,
+                "answer": "jest to adres powrotu ustawiany przez instrukcję jal",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "wskazuje na stack origin",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "question": "Co oznacza direct mapping dla pamięci cache?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "dane z danej komórki pamięci mogą znaleźć się tylko w jednym miejscu w cache",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": "dane z danej komórki pamięci mogą znaleźć się w wielu miejscach w pamięci cache",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "direct mapping nie dotyczy pamięci cache",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "oznacza rozmiar 1:1 pamięci cache i RAM",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "question": "Ile komórek pamięci można zaadresować w architekturze 32-bitowej?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "32 - 1 komórek",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "2^(32) - 1 komórek",
+                "correct": true
+            },
+            {
+                "id": 3,
+                "answer": "nie ma ograniczenia, gdyż można używać adresów względnych",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "32^(32) - 1 komórek",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 63,
+        "question": "Która architektura była projektowana z myślą aby minimalizować liczbę cykli zegara na instrukcję?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "CISC",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "RISC",
+                "correct": true
+            },
+            {
+                "id": 3,
+                "answer": "obie",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "żadna z powyższych",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "question": "Jaka będzie wartość rejestru $11 po zakończeniu wykonania kodu?",
+        "image": "/assets/634568bb-f47c-46cb-a32b-2e3804a63014.png",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "7",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "8",
+                "correct": true
+            },
+            {
+                "id": 3,
+                "answer": "6",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "11",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "question": "Która z powyższych instrukcji jest pseudoinstrukcją?",
+        "image": "/assets/634568bb-f47c-46cb-a32b-2e3804a63014.png",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "w linii 1",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "w linii 3",
+                "correct": true
+            },
+            {
+                "id": 3,
+                "answer": "w linii 4",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "w linii 5",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "question": "O ile bajtów zwiększy się $pc po wykonaniu instrukcji 1?",
+        "image": "/assets/634568bb-f47c-46cb-a32b-2e3804a63014.png",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "o jeden bajt",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "o cztery bajty",
+                "correct": true
+            },
+            {
+                "id": 3,
+                "answer": "o dwa słowa",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "o 16 bitów",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "question": "Na co będzie wskazywał adres $ra po wykonaniu instrukcji w linii 4?",
+        "image": "/assets/634568bb-f47c-46cb-a32b-2e3804a63014.png",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "na adres pamięci wskazywany przez etykietę here",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "zwiększy się o jedno słowo",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "zwiększy się o dwa słowa",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "nie zmieni się",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "question": "Ile pamięci będzie zajmował powyższy kod w pamięci?",
+        "image": "/assets/634568bb-f47c-46cb-a32b-2e3804a63014.png",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "sześć słów",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": "64 bajty",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "256 bajtów",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "siedem słów",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "question": "Jaka będzie wartość rejestru $9 po zakończeniu wykonania kodu?",
+        "image": "/assets/634568bb-f47c-46cb-a32b-2e3804a63014.png",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "7",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "8",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "6",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "1",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "question": "Ile pamięci będzie zajmował powyższy kod w pamięci?",
+        "image": "/assets/634568bb-f47c-46cb-a32b-2e3804a63014.png",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "sześć bajtów",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "64 bajty",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "256 bajtów",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "24 bajty",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "question": "W jaki sposób procesor wykonuje instrukcje w pamięci komputera?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "sekwencyjnie komórka po komórce, chyba że natrafi na instrukcje typu J-type",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": "naprzemienne, tzn. czyta najpierw pierwsze osiem słów instrukcji, później osiem słów danych i tak dalej",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "w miejscu, tzn. czyta tylko jedną komórkę pamięci, a zadaniem programisty jest zadbać aby umieścić tam odpowiedni kod",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "ze wskazaniem, tzn. każda instrukcja zawiera adres kolejnej instrukcji do wykonania",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "question": "Czym jest hit rate w przypadku pamięci cache?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "stosunkiem liczby żądań do pamięci znalezionych w cache do liczby wszystkich żądań",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": "szybkością dostępu do pamięci cache",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "liczbą dostępów do pamięci",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "optymalnym rozmiarem pamięci cache w stosunku do pamięci RAM",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "question": "Gdzie umiejscowiona jest pamięć cache w hierarchii pamięci?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "najwyżej (najszybsza)",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "pomiędzy rejestrami a pamięcią RAM (wolniejsza od rejestrów, szybsza niż RAM)",
+                "correct": true
+            },
+            {
+                "id": 3,
+                "answer": "pod pamięcią RAM (wolniejsza niż RAM)",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "nie znajduje się w ogóle w hierarchii pamięci, bo jest osobnym typem dla danych",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "question": "Czym jest przepełnienie stosu?",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "umieszczeniem poza stosem instrukcji lub danych nadpisując inne jej fragmenty",
+                "correct": true
+            },
+            {
+                "id": 2,
+                "answer": "zaalokowaniem większej pamięci niż potrzebna na dane",
+                "correct": false
+            },
+            {
+                "id": 3,
+                "answer": "przepełnieniem bufora rejestrów",
+                "correct": false
+            },
+            {
+                "id": 4,
+                "answer": "celowym działaniem programisty optymalizującym działanie programu",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "question": "* Osadzanie kodu:",
+        "answers": [
+            {
+                "id": 1,
+                "answer": "można osadzić kod w C w programie napisanym w asemblerze",
+                "correct": false
+            },
+            {
+                "id": 2,
+                "answer": "można osadzić kod w asemblerze w programie napisanym w C",
+                "correct": true
+            }
+        ]
+    }
+]
