@@ -333,6 +333,7 @@
     {
         "id": 12,
         "question": "Które stwierdzenia dotyczące forwardowania ramek przez przełącznik są prawdziwe?",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -396,6 +397,7 @@
     {
         "id": 14,
         "question": "Określ dwa powody, dla których administrator powinien podzielić większą sieć na podsieci",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -1377,6 +1379,7 @@
     {
         "id": 47,
         "question": "Jakie trzy bloki adresów są zdefiniowane przez RFC 1918 do użytku prywatnego w sieci Internet?",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -7013,21 +7016,16 @@
             },
             {
                 "id": 2,
-                "answer": "",
-                "correct": false
-            },
-            {
-                "id": 3,
                 "answer": "Dostawcy usług internetowych używają translacji adresów sieciowych do zmiany adresu IP użytkownika na adres, który może być używany w Internecie.",
                 "correct": true
             },
             {
-                "id": 4,
+                "id": 3,
                 "answer": "Dostawcy usług internetowych używają usługi nazw domenowych do zmiany adresu IP użytkownika na publiczny adres IP, który może być używany w Internecie.",
                 "correct": false
             },
             {
-                "id": 5,
+                "id": 4,
                 "answer": "Obaj użytkownicy muszą znajdować się w tej samej sieci.",
                 "correct": false
             }
@@ -7479,26 +7477,21 @@
             },
             {
                 "id": 2,
-                "answer": "",
-                "correct": false
-            },
-            {
-                "id": 3,
                 "answer": "aby wybrać ścieżki używane do kierowania ruchu do sieci docelowych",
                 "correct": true
             },
             {
-                "id": 4,
+                "id": 3,
                 "answer": "aby przekonwertować nazwę URL na adres IP",
                 "correct": false
             },
             {
-                "id": 5,
+                "id": 4,
                 "answer": "zapewnić bezpieczny transfer plików przez Internet",
                 "correct": false
             },
             {
-                "id": 6,
+                "id": 5,
                 "answer": "przekazywać ruch na podstawie adresów MAC",
                 "correct": false
             }
@@ -10169,6 +10162,7 @@
     {
         "id": 358,
         "question": "Które protokoły są wykorzystywane do zebrania szczegółowych informacji o sąsiednich urządzeniach podłączonych do routera Cisco serii 2800.",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -10346,6 +10340,7 @@
     {
         "id": 364,
         "question": "Do czego w sieciach komputerowych jest wykorzystywany protokół NTP.",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
