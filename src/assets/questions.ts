@@ -4,6 +4,7 @@ interface Question {
     id: number
     question: string
     noAnswerShuffle?: boolean
+    selectAll?: boolean
     image?: string
     answers: Answer[]
 }

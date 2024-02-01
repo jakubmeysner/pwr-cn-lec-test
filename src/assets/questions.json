@@ -61,6 +61,7 @@
     {
         "id": 3,
         "question": "Zaznacz trzy usługi, które są świadczone pomiędzy warstwę transportową Wybierz wszystkie poprawne odpowiedzi.",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -159,6 +160,7 @@
     {
         "id": 6,
         "question": "Które protokoły funkcjonują w warstwie Internetu? Wybierz dwa.",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -701,6 +703,7 @@
     {
         "id": 25,
         "question": "Jakie trasy w tablicy routingu mają odległość administracyjną mniejszą lub równą jeden. Wybierz dwie odpowiedzi.",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -732,6 +735,7 @@
     {
         "id": 26,
         "question": "Wybierz prawdziwe stwierdzenia dotyczące trasy do sieci NET1, która do tablicy routera R1 została dopisana w sposób dynamiczny.",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -998,6 +1002,7 @@
     {
         "id": 35,
         "question": "Jakie są zalety routingu statycznego w porównaniu do dynamicznego? Wybierz wszystkie poprawne odpowiedzi",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -1091,6 +1096,7 @@
     {
         "id": 38,
         "question": "Które warstwy modelu OSI zawierają się w najwyższej warstwe stosu protokołu TCP/IP? Wybierz wszystkie poprawne odpowiedzi.",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -1339,6 +1345,7 @@
     {
         "id": 46,
         "question": "Wybierz dwie cechy protokołu ARP.",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -1566,6 +1573,7 @@
     {
         "id": 53,
         "question": "Z jakich dwóch części składa się adres IPv4? Wybierz dwie odpowiedzi.",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -1949,6 +1957,7 @@
     {
         "id": 66,
         "question": "Zaznacz wszystkie prywatne adresy IP. Wybierz wszystkie poprawne odpowiedzi.",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -2386,6 +2395,7 @@
     {
         "id": 81,
         "question": "System operacyjny IOS routera Cisco (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -2412,6 +2422,7 @@
     {
         "id": 82,
         "question": "Do mediów miedzianych zaliczamy (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -2464,6 +2475,7 @@
     {
         "id": 84,
         "question": "Wybierz poprawne stwierdzenie dotyczące segmentacji (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -2594,6 +2606,7 @@
     {
         "id": 89,
         "question": "Które stwierdzenie dotyczące światłowodu jednomodowego jest prawdziwe (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -2620,6 +2633,7 @@
     {
         "id": 90,
         "question": "Które stwierdzenia dotyczące protokołu CSMA są poprawne (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -2646,6 +2660,7 @@
     {
         "id": 91,
         "question": "Komputer w swojej tablicy routingu zawiera adres (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -2672,6 +2687,7 @@
     {
         "id": 92,
         "question": "Protokoły sieciowe (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -2698,6 +2714,7 @@
     {
         "id": 93,
         "question": "Protokół TCP w porównaniu do UDP (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -2750,6 +2767,7 @@
     {
         "id": 95,
         "question": "Interfejs SVI przełącznika (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -2828,6 +2846,7 @@
     {
         "id": 98,
         "question": "Brama domyślna w sieci LAN (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -2854,6 +2873,7 @@
     {
         "id": 99,
         "question": "Przewód z przeplotem powinien zostać użyty do połączenia (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -2880,6 +2900,7 @@
     {
         "id": 100,
         "question": "Wybierz poprawne stwierdzenie (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -2906,6 +2927,7 @@
     {
         "id": 101,
         "question": "Które flagi nie są używane przy zakończeniu sesji TCP (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -2932,6 +2954,7 @@
     {
         "id": 102,
         "question": "Wybierz poprawne stwierdzenie dotyczące adresu łącza lokalnego IPv6 (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -2958,6 +2981,7 @@
     {
         "id": 103,
         "question": "Adres IPv6 łącza lokalnego jest (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -3010,6 +3034,7 @@
     {
         "id": 105,
         "question": "Zadaniami warstwy trzeciej są (wybierz 3 odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -3067,6 +3092,7 @@
     {
         "id": 107,
         "question": "Rywalizacyjny dostęp do medium charakteryzuje się (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -3093,6 +3119,7 @@
     {
         "id": 108,
         "question": "Dynamiczne wpisy ARP w tablicy (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -3119,6 +3146,7 @@
     {
         "id": 109,
         "question": "Tryb użytkownika urządzenia (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -3249,6 +3277,7 @@
     {
         "id": 114,
         "question": "Które stwierdzenia dotyczy kabli światłowodowych są prawdziwe (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -3275,6 +3304,7 @@
     {
         "id": 115,
         "question": "Ręczne wpisy ARP w tablicy (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -3431,6 +3461,7 @@
     {
         "id": 121,
         "question": "Sieć Internet (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -3561,6 +3592,7 @@
     {
         "id": 126,
         "question": "Połączenie przy użyciu protokołu Telnet z routerem Cisco (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -3795,6 +3827,7 @@
     {
         "id": 135,
         "question": "Tryb uprzywilejowany urządzenia (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -3821,6 +3854,7 @@
     {
         "id": 136,
         "question": "Brama domyślna ustawiona na przełączniku (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -3951,6 +3985,7 @@
     {
         "id": 141,
         "question": "Które określenia sieciowe nie są definiowane przez standardy warstwy fizycznej (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -4107,6 +4142,7 @@
     {
         "id": 147,
         "question": "Do trójstronnego nawiązania połączenia w protokole TCP używane są flagi (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -4159,6 +4195,7 @@
     {
         "id": 149,
         "question": "Protokół TCP jest używany, gdy (wybierz dwie odpowiedzi):[ja tu widzę 3 dobre odpowiedzi...]",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -4185,6 +4222,7 @@
     {
         "id": 150,
         "question": "Przełącznik warstwy drugiej (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -4237,6 +4275,7 @@
     {
         "id": 152,
         "question": "Wybierz poprawne stwierdzenie dotyczące adresu łącza lokalnego IPv6 (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -4341,6 +4380,7 @@
     {
         "id": 156,
         "question": "Do głównych typów wiadomości należą (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -4367,6 +4407,7 @@
     {
         "id": 157,
         "question": "Bieżąca konfiguracja urządzeń z system Cisco IOS (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -4445,6 +4486,7 @@
     {
         "id": 160,
         "question": "Identyfikator interfejsu dla IPv6 (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -4471,6 +4513,7 @@
     {
         "id": 161,
         "question": "Startowa konfiguracja urządzenia (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -4523,6 +4566,7 @@
     {
         "id": 163,
         "question": "Dobrze znane porty (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -4549,6 +4593,7 @@
     {
         "id": 164,
         "question": "Wybierz dwa poprawne stwierdzenia dotyczące stosu protokołów (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -4575,6 +4620,7 @@
     {
         "id": 165,
         "question": "Do urządzeń końcowych należą (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -4627,6 +4673,7 @@
     {
         "id": 167,
         "question": "Wybierz poprawne stwierdzenia dotyczące kodowania (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -4679,6 +4726,7 @@
     {
         "id": 169,
         "question": "Protokół UDP jest używany, gdy (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -4705,6 +4753,7 @@
     {
         "id": 170,
         "question": "Protokołami warstwy sieciowej nie są (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -4731,6 +4780,7 @@
     {
         "id": 171,
         "question": "Adres rozgłoszeniowy IPv4 w zapisie binarnym w części hosta zawiera (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -4757,6 +4807,7 @@
     {
         "id": 172,
         "question": "Wybierz poprawną odpowiedź dotyczącą warstwy łącza danych (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -4809,6 +4860,7 @@
     {
         "id": 174,
         "question": "Do urządzeń pośredniczących nie należą (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -4861,6 +4913,7 @@
     {
         "id": 176,
         "question": "Elementami globalnego adresu adresu indywidualnego IPv6 są (wybierz 3 odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -4892,6 +4945,7 @@
     {
         "id": 177,
         "question": "Adres bramy domyślnej ustawiany na komputerze (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -4918,6 +4972,7 @@
     {
         "id": 178,
         "question": "Warstwa transportowa jest odpowiedzialna za (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -5022,6 +5077,7 @@
     {
         "id": 182,
         "question": "Które stwierdzenia dotyczące kabli miedzianych są prawdziwe (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -5048,6 +5104,7 @@
     {
         "id": 183,
         "question": "System operacyjny urządzenia (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -5074,6 +5131,7 @@
     {
         "id": 184,
         "question": "Które protokoły warstwy aplikacji używają protokołu TCP (wybierz dwie odpowiedzi):",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -5292,6 +5350,7 @@
     {
         "id": 192,
         "question": "Jakie są dwa sposoby wykorzystania przez TCP numerów sekwencji w segmencie? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -5375,6 +5434,7 @@
     {
         "id": 195,
         "question": "Jakie dwa zadania są funkcjami warstwy prezentacji? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -5406,6 +5466,7 @@
     {
         "id": 196,
         "question": "[Może być źle] Które trzy stwierdzenia charakteryzują UDP? (Wybierz trzy.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -5442,6 +5503,7 @@
     {
         "id": 197,
         "question": "Administrator sieci włącza usługi na nowo zainstalowanym serwerze. Które z dwóch stwierdzeń opisują, w jaki sposób usługi są używane na serwerze? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -5499,6 +5561,7 @@
     {
         "id": 199,
         "question": "Jakie są dwie cechy ARP? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -5924,6 +5987,7 @@
     {
         "id": 214,
         "question": "Jakie są dwie cechy wspólne dla TCP i UDP? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -6152,6 +6216,7 @@
     {
         "id": 222,
         "question": "Które trzy stwierdzenia charakteryzują protokoły warstwy transportowej? (Wybierz trzy.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -6266,6 +6331,7 @@
     {
         "id": 226,
         "question": "W jakich dwóch sytuacjach UDP byłby preferowanym protokołem transportowym nad TCP? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -6427,6 +6493,7 @@
     {
         "id": 232,
         "question": "Jakie są dwie zalety korzystania z warstwowego modelu sieciowego? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -6650,6 +6717,7 @@
     {
         "id": 240,
         "question": "Jakie są trzy główne funkcje zapewniane przez enkapsulację danych w warstwie 2? (Wybierz trzy.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -6769,6 +6837,7 @@
     {
         "id": 244,
         "question": "Jakie są dwa przykłady metody przełączania przekrojowego? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -6826,6 +6895,7 @@
     {
         "id": 246,
         "question": "Jakie dwie akcje wykonuje przełącznik Cisco? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -6992,6 +7062,7 @@
     {
         "id": 252,
         "question": "Jakie są dwie usługi świadczone przez warstwę sieci OSI? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -7075,6 +7146,7 @@
     {
         "id": 255,
         "question": "Jakie są dwie funkcje pamięci NVRAM? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -7163,6 +7235,7 @@
     {
         "id": 258,
         "question": "Jakie są trzy charakterystyki transmisji multiemisji? (Wybierz trzy.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -7277,6 +7350,7 @@
     {
         "id": 262,
         "question": "Które z trzech adresów są poprawnymi adresami publicznymi? (Wybierz trzy.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -7365,6 +7439,7 @@
     {
         "id": 265,
         "question": "Jakie dwie przyczyny powodują, że DHCP jest preferowaną metodą przydzielania adresów IP hostom w dużych sieciach? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -7458,6 +7533,7 @@
     {
         "id": 268,
         "question": "Które dwa komponenty są konfigurowane za pomocą oprogramowania, aby komputer mógł uczestniczyć w środowisku sieciowym? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -7515,6 +7591,7 @@
     {
         "id": 270,
         "question": "Które trzy stwierdzenia charakteryzują protokoły warstwy transportowej? (Wybierz trzy.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -7546,6 +7623,7 @@
     {
         "id": 271,
         "question": "Które dwa stwierdzenia opisują właściwości okablowania światłowodowego? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -7660,6 +7738,7 @@
     {
         "id": 275,
         "question": "Jakie są dwa główne składniki Cisco Express Forwarding (CEF)? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -7831,6 +7910,7 @@
     {
         "id": 281,
         "question": "Host uzyskuje dostęp do serwera Telnet w sieci zdalnej. Jakie trzy funkcje są wykonywane przez pośredniczące urządzenia sieciowe podczas tej rozmowy? (Wybierz trzy.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -7992,6 +8072,7 @@
     {
         "id": 287,
         "question": "Firma ma adres sieciowy 192.168.1.64 z maską podsieci 255.255.255.192. Firma chce utworzyć dwie podsieci,które będą zawierać odpowiednio 10 hostów i 18 hostów. Które dwie sieci to osiągną? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -8101,6 +8182,7 @@
     {
         "id": 291,
         "question": "Które dwa stwierdzenia opisują funkcje lub cechy ROM w routerze? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -8189,6 +8271,7 @@
     {
         "id": 294,
         "question": "Jakie są dwie cechy fizycznej topologii sieci gwiazd? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -8220,6 +8303,7 @@
     {
         "id": 295,
         "question": "Jakie cechy opisuje kabel światłowodowy? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -8277,6 +8361,7 @@
     {
         "id": 297,
         "question": "Które z dwóch oznaczeń są użytecznymi granicami skórki podczas podsieci w IPv6? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -8308,6 +8393,7 @@
     {
         "id": 298,
         "question": "Technik sieci mierzy transfer bitów w ramach sieci szkieletowej firmy dla aplikacji o znaczeniu krytycznym. Technik zauważa, że przepustowość sieci jest mniejsza niż oczekiwana przepustowość. Jakie trzy czynniki mogą wpłynąć na różnice w wydajności? (Wybierz trzy.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -8603,6 +8689,7 @@
     {
         "id": 308,
         "question": "Które trzy adresy IP są prywatne? (Wybierz trzy.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -8639,6 +8726,7 @@
     {
         "id": 309,
         "question": "Host uzyskuje dostęp do serwera FTP w sieci zdalnej. Jakie trzy funkcje są wykonywane przez pośredniczące urządzenia sieciowe podczas tej rozmowy? (Wybierz trzy.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -8701,6 +8789,7 @@
     {
         "id": 311,
         "question": "Jakie dwa składniki są niezbędne, aby klient bezprzewodowy mógł zostać zainstalowany w sieci WLAN? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -8794,6 +8883,7 @@
     {
         "id": 314,
         "question": "Które dwie instrukcje poprawnie opisują typ pamięci routera i jego zawartość? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -8825,6 +8915,7 @@
     {
         "id": 315,
         "question": "Które z poniższych są podstawowymi funkcjami routera? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -8856,6 +8947,7 @@
     {
         "id": 316,
         "question": "Jakie dwa wstępnie skonfigurowane ustawienia wpływające na bezpieczeństwo znajdują się na większości nowych routerów bezprzewodowych? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -8949,6 +9041,7 @@
     {
         "id": 319,
         "question": "Komputer główny właśnie uruchomił się i próbuje wydzierżawić adres przez DHCP. Które z dwóch wiadomości będą zazwyczaj transmitowane przez klienta w sieci? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -8980,6 +9073,7 @@
     {
         "id": 320,
         "question": "Host uzyskuje dostęp do serwera sieci Web w sieci zdalnej. Jakie trzy funkcje są wykonywane przez pośredniczące urządzenia sieciowe podczas tej rozmowy? (Wybierz trzy.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -9120,6 +9214,7 @@
     {
         "id": 325,
         "question": "Administrator sieci aktualizuje sieć małych firm, aby nadawać wysoki priorytet ruchowi aplikacji w czasie rzeczywistym. Jakie dwa typy usług sieciowych próbuje administrator sieci? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -9203,6 +9298,7 @@
     {
         "id": 328,
         "question": "Które dwa protokoły działają w warstwie internetowej? (Wybierz dwa)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -9260,6 +9356,7 @@
     {
         "id": 330,
         "question": "Jakie trzy protokoły warstwy aplikacji są częścią pakietu protokołów TCP / IP? (Wybierz trzy.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -9628,6 +9725,7 @@
     {
         "id": 343,
         "question": "Administrator sieci zauważa, że przepustowość w sieci wydaje się niższa niż oczekiwano w porównaniu do przepustowości sieci typu end-to-end. Które trzy czynniki mogą wyjaśnić tę różnicę? (Wybierz trzy.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -9664,6 +9762,7 @@
     {
         "id": 344,
         "question": "Które dwie usługi lub protokoły wykorzystują preferowany protokół UDP do szybkiej transmisji i niskich kosztów? (Wybierz dwa)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -9721,6 +9820,7 @@
     {
         "id": 346,
         "question": "Jakie są trzy ważne kwestie przy planowaniu struktury schematu adresowania IP? (Wybierz trzy.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -9845,6 +9945,7 @@
     {
         "id": 350,
         "question": "W jaki sposób wadliwe urządzenie sieciowe może stanowić źródło zagrożenia dla użytkownika? (Wybierz dwa.)",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -10120,6 +10221,7 @@
     {
         "id": 360,
         "question": "Wybierz komendy archiwizujące konfigurację urządzenia w systemie Cisco IOS",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -10306,6 +10408,7 @@
     {
         "id": 366,
         "question": "Wybierz prawdziwe stwierdzenia opisujące różnice pomiędzy protokołami CDP i LLDP",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,
@@ -10458,6 +10561,7 @@
     {
         "id": 371,
         "question": "Które stwierdzenie dotyczące adresu MAC jest prawdziwe? Wybierz dwa",
+        "selectAll": true,
         "answers": [
             {
                 "id": 1,

@@ -14,26 +14,54 @@ const answers = computed(
     () => question.value.noAnswerShuffle ? question.value.answers : shuffle([...question.value.answers]),
 )
 
-const answerId = ref<number | null>(null)
+const answerIds = ref<number[]>([])
+const answered = ref<boolean>(false)
+const answeredCorrectly = ref<boolean>(false)
 
-function answerQuestion(id: number, correct?: boolean) {
-    if (answerId.value === null) {
-        answerId.value = id
-
-        if (correct) {
-            store.questionProgress[question.value.id] = (
-                store.questionProgress[question.value.id] ?? 0
-            ) + 1
+function toggleAnswer(id: number) {
+    if (answerIds.value.includes(id)) {
+        const index = answerIds.value.indexOf(id)
+        answerIds.value.splice(index, 1)
+    } else {
+        if (question.value.selectAll) {
+            answerIds.value.push(id)
         } else {
-            store.questionProgress[question.value.id] = (
-                store.questionProgress[question.value.id] ?? 0
-            ) - 1
+            answerIds.value = [id]
         }
     }
 }
 
+function confirm() {
+    const correctAnswerIdsSet = new Set(
+        question.value.answers
+            .filter((answer) => answer.correct)
+            .map((answer) => answer.id)
+    )
+
+    if (question.value.selectAll) {
+        answeredCorrectly.value = answerIds.value.length === correctAnswerIdsSet.size
+            && answerIds.value.every((id) => correctAnswerIdsSet.has(id));
+    } else {
+        answeredCorrectly.value = correctAnswerIdsSet.has(answerIds.value[0]);
+    }
+
+    if (answeredCorrectly.value) {
+        store.questionProgress[question.value.id] = (
+            store.questionProgress[question.value.id] ?? 0
+        ) + 1
+    } else {
+        store.questionProgress[question.value.id] = (
+            store.questionProgress[question.value.id] ?? 0
+        ) - 1
+    }
+
+    answered.value = true
+}
+
 watch(() => store.questionId, () => {
-    answerId.value = null
+    answerIds.value = []
+    answered.value = false
+    answeredCorrectly.value = false
 })
 </script>
 
@@ -46,9 +74,14 @@ watch(() => store.questionId, () => {
                 <v-list-item
                     v-for="answer in answers"
                     :key="answer.id"
-                    :active="answer.id === answerId"
-                    :base-color="answerId !== null ? (answer.correct ? 'success' : 'error') : undefined"
-                    @click="answerQuestion(answer.id, answer.correct)"
+                    :active="answerIds.includes(answer.id)"
+                    :base-color="answered ? (answer.correct ? 'success' : 'error') : undefined"
+                    :prepend-icon="
+                        question.selectAll
+                            ? (answerIds.includes(answer.id) ? 'mdi-checkbox-outline' : 'mdi-checkbox-blank-outline')
+                            : (answerIds[0] === answer.id ? 'mdi-radiobox-marked' : 'mdi-radiobox-blank')
+                    "
+                    @click="toggleAnswer(answer.id)"
                 >
                     <v-list-item-title class="text-wrap">
                         {{ answer.answer }}
@@ -63,12 +96,21 @@ watch(() => store.questionId, () => {
             />
 
             <v-btn
-                v-if="answerId !== null"
+                v-if="answered"
+                :block="true"
+                class="mt-2"
+                :color="answeredCorrectly ? 'success' : 'error'"
+                text="Następne pytanie"
+                @click="store.nextQuestion()"
+            />
+
+            <v-btn
+                v-else
                 :block="true"
                 class="mt-2"
                 color="primary"
-                text="Następne pytanie"
-                @click="store.nextQuestion()"
+                text="Potwierdź"
+                @click="confirm()"
             />
         </template>
     </v-card>
