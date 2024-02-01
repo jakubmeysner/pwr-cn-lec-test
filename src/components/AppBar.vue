@@ -4,7 +4,7 @@ import Options from "@/components/Options.vue"
 
 <template>
     <v-app-bar>
-        <v-app-bar-title>AK Test</v-app-bar-title>
+        <v-app-bar-title>SK Test</v-app-bar-title>
         <options />
     </v-app-bar>
 </template>
