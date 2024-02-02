@@ -23,7 +23,7 @@ const store = useStore()
                     <v-col cols="12" md="6">
                         <!-- Place your iframe here -->
                         <iframe width="512" height="288" 
-                            src="https://www.youtube.com/embed/7ghSziUQnhs?autoplay=1&mute=1" 
+                            src="https://www.youtube-nocookie.com/embed/7ghSziUQnhs?autoplay=1&mute=1" 
                             frameborder="0" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                             allowfullscreen>
