@@ -5691,26 +5691,21 @@
         "answers": [
             {
                 "id": 1,
-                "answer": "",
-                "correct": false
-            },
-            {
-                "id": 2,
                 "answer": "Nowa konfiguracja zostanie zapisana w pamięci flash.",
                 "correct": false
             },
             {
-                "id": 3,
+                "id": 2,
                 "answer": "Nowa konfiguracja zostanie załadowana po ponownym uruchomieniu przełącznika.",
                 "correct": true
             },
             {
-                "id": 4,
+                "id": 3,
                 "answer": "Obecny plik IOS zostanie zastąpiony nowo skonfigurowanym plikiem.",
                 "correct": false
             },
             {
-                "id": 5,
+                "id": 4,
                 "answer": "Zmiany konfiguracji zostaną usunięte, a pierwotna konfiguracja zostanie przywrócona.",
                 "correct": false
             }
