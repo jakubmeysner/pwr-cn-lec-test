@@ -114,6 +114,7 @@ watch(() => store.questionId, () => {
                 class="mt-2"
                 color="primary"
                 text="Potwierdź"
+                :disabled="answerIds.length === 0"
                 @click="confirm()"
             />
         </template>
