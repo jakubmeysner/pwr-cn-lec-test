@@ -6582,31 +6582,21 @@
         "answers": [
             {
                 "id": 1,
-                "answer": "",
-                "correct": false
-            },
-            {
-                "id": 2,
                 "answer": "enkapsulacja danych",
                 "correct": true
             },
             {
-                "id": 3,
+                "id": 2,
                 "answer": "wykrywanie brakujących pakietów",
                 "correct": false
             },
             {
-                "id": 4,
+                "id": 3,
                 "answer": "kontrola sesji komunikacyjnych",
                 "correct": false
             },
             {
-                "id": 5,
-                "answer": "",
-                "correct": false
-            },
-            {
-                "id": 6,
+                "id": 4,
                 "answer": "określanie ścieżki dla pakietów danych",
                 "correct": false
             }
@@ -8525,16 +8515,6 @@
                 "id": 4,
                 "answer": "FF00 :: / 8",
                 "correct": true
-            },
-            {
-                "id": 5,
-                "answer": "",
-                "correct": false
-            },
-            {
-                "id": 6,
-                "answer": "",
-                "correct": false
             }
         ]
     },
@@ -8560,16 +8540,6 @@
             {
                 "id": 4,
                 "answer": "Napęd",
-                "correct": false
-            },
-            {
-                "id": 5,
-                "answer": "",
-                "correct": false
-            },
-            {
-                "id": 6,
-                "answer": "",
                 "correct": false
             }
         ]
@@ -9919,16 +9889,11 @@
             },
             {
                 "id": 3,
-                "answer": "",
-                "correct": false
-            },
-            {
-                "id": 4,
                 "answer": "Pole numeru potwierdzenia wykorzystuje losowy numer portu źródłowego w odpowiedzi na klienta.",
                 "correct": false
             },
             {
-                "id": 5,
+                "id": 4,
                 "answer": "Numer potwierdzenia jest ustawiony na 1, aby oznaczać pakiet potwierdzenia z powrotem do klienta.",
                 "correct": false
             }
