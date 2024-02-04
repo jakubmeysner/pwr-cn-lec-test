@@ -13,8 +13,12 @@ const partiallyLearnedCount = computed(
     () => Object.values(store.questionProgress).filter(n => n == 1).length,
 )
 
+const learningCount = computed(
+    () => Object.keys(store.questionProgress).length - learnedCount.value - partiallyLearnedCount.value
+)
+
 const notLearnedCount = computed(
-    () => questions.length - learnedCount.value - partiallyLearnedCount.value,
+    () => questions.length - Object.keys(store.questionProgress).length,
 )
 </script>
 
@@ -31,6 +35,11 @@ const notLearnedCount = computed(
                     <tr>
                         <td>Częściowo nauczono</td>
                         <td>{{ partiallyLearnedCount }}</td>
+                    </tr>
+
+                    <tr>
+                        <td>W trakcie nauki</td>
+                        <td>{{ learningCount }}</td>
                     </tr>
 
                     <tr>
