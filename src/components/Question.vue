@@ -3,6 +3,7 @@ import { useStore } from "@/stores/store"
 import { computed, ref, watch } from "vue"
 import questions from "@/assets/questions"
 import { shuffle } from "@/util/random"
+import Clock from "@/components/Clock.vue"
 
 const store = useStore()
 
@@ -17,6 +18,8 @@ const answers = computed(
 const answerIds = ref<number[]>([])
 const answered = ref<boolean>(false)
 const answeredCorrectly = ref<boolean>(false)
+const startedAt = ref(new Date())
+const endedAt = ref<Date | null>(null)
 
 function toggleAnswer(id: number) {
     if (answered.value) {
@@ -39,14 +42,14 @@ function confirm() {
     const correctAnswerIdsSet = new Set(
         question.value.answers
             .filter((answer) => answer.correct)
-            .map((answer) => answer.id)
+            .map((answer) => answer.id),
     )
 
     if (question.value.selectAll) {
         answeredCorrectly.value = answerIds.value.length === correctAnswerIdsSet.size
-            && answerIds.value.every((id) => correctAnswerIdsSet.has(id));
+            && answerIds.value.every((id) => correctAnswerIdsSet.has(id))
     } else {
-        answeredCorrectly.value = correctAnswerIdsSet.has(answerIds.value[0]);
+        answeredCorrectly.value = correctAnswerIdsSet.has(answerIds.value[0])
     }
 
     if (answeredCorrectly.value) {
@@ -60,17 +63,31 @@ function confirm() {
     }
 
     answered.value = true
+    endedAt.value = new Date()
 }
 
 watch(() => store.questionId, () => {
     answerIds.value = []
     answered.value = false
     answeredCorrectly.value = false
+    startedAt.value = new Date()
+    endedAt.value = null
 })
 </script>
 
 <template>
-    <v-card title="Pytanie">
+    <v-card>
+        <template #title>
+            <div class="d-flex justify-space-between align-center">
+                <div>Pytanie</div>
+
+                <clock
+                    :started-at="startedAt"
+                    :ended-at="endedAt"
+                />
+            </div>
+        </template>
+
         <template #text>
             <p class="text-body-1">{{ question.question }}</p>
 
